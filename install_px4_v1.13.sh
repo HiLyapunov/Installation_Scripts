@@ -6,6 +6,7 @@ sudo apt install openjdk-11-jdk
 #克隆PX4 v1.13 固件（官网也没找到）
 sudo apt install git
 #px4 v1.13版本
+cd ~
 git clone -b v1.13.0-beta1 https://github.com/PX4/PX4-Autopilot.git --recursive
 cd PX4-Autopilot/
 git submodule update --init --recursive
